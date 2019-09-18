@@ -64,7 +64,7 @@ public class JavaFileNameFilter implements FilenameFilter {
 
 }
 
-package capone.io;
+package smitha.io;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -76,7 +76,7 @@ import java.util.Iterator;
 public class MyMain {
 
 	public static void main(String[] args) {
-		File dir = new File("/Users/kui987/CapitalOne/Repos/Git/java-examples");
+		File dir = new File("/Git/java-examples");
 		printFilesLenghtUsingCustomImplementation(dir);
 		printFilesLengthUsingConcreteImplementation(dir);
 		printFilesLengthUsingAnonymousClass(dir);
